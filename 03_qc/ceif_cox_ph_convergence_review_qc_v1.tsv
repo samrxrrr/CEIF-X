@@ -1,0 +1,13 @@
+metric	value
+flagged_genes_reviewed	280
+optimizer_converged_true	0
+optimizer_converged_false	0
+optimizer_convergence_unknown	280
+review_ph_signal_raw_p_lt_0.05	280
+review_ph_signal_bh_fdr_lt_0.05	280
+nonfinite	0
+refit_failed	0
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+primary_cox_results_modified	NO
+original_ph_results_modified	NO

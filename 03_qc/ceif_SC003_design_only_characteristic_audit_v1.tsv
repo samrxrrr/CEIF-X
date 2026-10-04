@@ -1,0 +1,30 @@
+Assay	Sample Characteristic[organism]	Sample Characteristic[individual]	Sample Characteristic[organism part]	Sample Characteristic[sampling site]	Sample Characteristic[disease]	Sample Characteristic[histology]
+SRR2973301	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973306	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973308	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973315	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973329	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973347	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973348	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR2973370	Homo sapiens	BC03	breast	primary tumor	breast carcinoma	estrogen-receptor positive and HER2 positive breast cancer
+SRR2973428	Homo sapiens	BC03LN	lymph node	metastasis to lymph node	breast carcinoma	estrogen-receptor positive and HER2 positive breast cancer
+SRR5023381	Homo sapiens	BC01	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023382	Homo sapiens	BC01	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023383	Homo sapiens	BC01	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023385	Homo sapiens	BC01	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023401	Homo sapiens	BC02	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023404	Homo sapiens	BC02	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023430	Homo sapiens	BC02	breast	primary tumor	breast carcinoma	estrogen-receptor positive breast cancer
+SRR5023449	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR5023451	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR5023452	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR5023454	Homo sapiens	BC04	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR5023550	Homo sapiens	BC06	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR5023552	Homo sapiens	BC06	breast	primary tumor	breast carcinoma	HER2 positive breast carcinoma
+SRR5023582	Homo sapiens	BC08	breast	primary tumor	breast carcinoma	triple-negative breast cancer
+SRR5023592	Homo sapiens	BC09	breast	primary tumor	breast carcinoma	triple-negative breast cancer
+SRR5023606	Homo sapiens	BC09	breast	primary tumor	breast carcinoma	triple-negative breast cancer
+SRR5023638	Homo sapiens	BC09_Re	breast	primary tumor	breast carcinoma	triple-negative breast cancer
+SRR5023649	Homo sapiens	BC10	breast	primary tumor	breast carcinoma	triple-negative breast cancer
+SRR5023650	Homo sapiens	BC10	breast	primary tumor	breast carcinoma	triple-negative breast cancer
+SRR5023655	Homo sapiens	BC10	breast	primary tumor	breast carcinoma	triple-negative breast cancer

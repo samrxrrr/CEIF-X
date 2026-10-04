@@ -1,0 +1,1248 @@
+{
+  "accno": "E-MTAB-8410",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Single cell sequencing of colorectal tumors and adjacent non-malignant colon tissue"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2023-07-06"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-8410"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-8410",
+    "type": "Study",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Single cell sequencing of colorectal tumors and adjacent non-malignant colon tissue"
+      },
+      {
+        "name": "Study type",
+        "value": "RNA-seq of coding RNA from single cells",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0005684"
+          }
+        ]
+      },
+      {
+        "name": "Study type",
+        "value": "differential"
+      },
+      {
+        "name": "Study type",
+        "value": "trajectory"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Single cell RNA-sequencing has been applied to core and border regions of 9 colorectal tumors as well as to matched adjacent non-malignant colon tissue for the purpose of generating a cellular map of colorectal tumors and their tumor microenvironment."
+      }
+    ],
+    "links": [
+      [
+        {
+          "url": "E-MTAB-6653",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "Biostudies"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "url": "ERP149257",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "ENA"
+            }
+          ]
+        },
+        {
+          "url": "E-MTAB-8410",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "gxa-sc"
+            }
+          ]
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-90172",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-90172"
+            },
+            {
+              "name": "Type",
+              "value": "sample collection protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Following surgical resection, samples from the tumor (core and border regions for each tumor) and adjacent non-malignant tissue from the same resection specimen (maximal distance from the tumor is 5 cm) were taken from the pathologist. Samples were rinsed with PBS, and each sample was subsequently minced into smaller pieces of less than 1 mm3 on ice, and transferred to 10 mL digestion medium (DMEM [Gibco] with 2mg/ml of Collagenase P [Roche] and 0.2mg/ml of DNAse I [Roche]).  Samples were incubated for 15 minutes at 37\u00b0C, with manual shaking every 5 minutes. Samples were then vortexed for 10 seconds, and pipetted up and down for 1 minute using pipettes of descending sizes (25 mL, 10 mL and 5 mL). Next, 30 mL ice-cold phosphate-buffered saline, pH 7.4 (PBS [ThermoFisher Scientific]) was added, samples were filtered using a 40\u00b5m nylon mesh (ThermoFisher Scientific). Following centrifugation at 300 G at 4\u00b0C for 5 minutes, the supernatant was decanted and discarded, and the cell pellet was resuspended in 1 mL red blood cell lysis buffer (Sigma) and transferred to a 2 mL DNA low bind tube. Following a 5-minute incubation at room temperature, samples were centrifuged (150 G, 4\u00b0C, 5 min) using a swing-out rotor. Samples were next resuspended in 1 mL PBS containing 8 \u00b5L UltraPure bovine serum albumin (50 mg/mL, AM2616 [ThermoFisher Scientific]) and filtered over Scienceware Flowmi 40 \u00b5m cell strainers (VWR) using wide bore 1 mL low retention filter tips (Mettler-Toledo).  10 \u00b5L (9 \u00b5L of cell suspension plus 1 \u00b5L AOPI) of this cell suspension was next counted using an automated cell counter (Luna) to determine the concentration of live cells."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-90173",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-90173"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Single cell suspensions were converted to barcoded 10x libraries by using the Chromium Single Cell 3\u2019 Library, Gel Bead & Multiplex Kit and Chip Kit (10X Genomics; Pleasanton, California, USA), aiming for an estimated 7,000 cells per library."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-90174",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-90174"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid library construction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004184"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Samples were processed using kits pertaining to V2 barcoding chemistry of 10X Genomics."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-90175",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-90175"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Libraries were sequenced on an Illumina NextSeq, HiSeq4000 and NovaSeq until read saturation is reached. Demultiplexing according to the sample barcodes was performed using the Cellanger package. 3 fastq files were generated per sample: I1 is the 8 bp sample barcode, R1 is the 16bp feature barcode + 10 bp UMI and 98 bp R2 corresponds to the cDNA."
+            },
+            {
+              "name": "Hardware",
+              "value": "Illumina HiSeq 4000"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-90176",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-90176"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Libraries were sequenced on an Illumina NextSeq, HiSeq4000 and NovaSeq until read saturation is reached. Demultiplexing according to the sample barcodes was performed using the Cellanger package. 3 fastq files were generated per sample: I1 is the 8 bp sample barcode, R1 is the 16bp feature barcode + 10 bp UMI and 98 bp R2 corresponds to the cDNA."
+            },
+            {
+              "name": "Hardware",
+              "value": "Illumina NovaSeq 6000"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-90177",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-90177"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Libraries were sequenced on an Illumina NextSeq, HiSeq4000 and NovaSeq until read saturation is reached. Demultiplexing according to the sample barcodes was performed using the Cellanger package. 3 fastq files were generated per sample: I1 is the 8 bp sample barcode, R1 is the 16bp feature barcode + 10 bp UMI and 98 bp R2 corresponds to the cDNA."
+            },
+            {
+              "name": "Hardware",
+              "value": "NextSeq 500"
+            }
+          ]
+        }
+      ],
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Hakki Emre Etlioglu"
+          },
+          {
+            "name": "Email",
+            "value": "emre.etlioglu@protonmail.com"
+          },
+          {
+            "name": "Role",
+            "value": "submitter"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Sabine Tejpar"
+          },
+          {
+            "name": "Email",
+            "value": "sabine.tejpar@kuleuven.be"
+          },
+          {
+            "name": "Role",
+            "value": "investigator"
+          },
+          {
+            "name": "affiliation",
+            "value": "o2",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "accno": "o1",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "University of Leuven"
+          },
+          {
+            "name": "Address",
+            "value": "Molecular Digestive Oncology Unit Department of Oncology - KU Leuven O&N1 6th floor Herestraat 49 - bus 818 3000 Leuven Belgium"
+          }
+        ]
+      },
+      {
+        "accno": "o2",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "University of Leuven, University Hospitals Leuven"
+          },
+          {
+            "name": "Address",
+            "value": "Molecular Digestive Oncology Unit Department of Oncology - KU Leuven O&N1 6th floor Herestraat 49 - bus 818 3000 Leuven Belgium"
+          }
+        ]
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-8410",
+        "type": "Samples",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "27"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "observational design",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "EFO"
+              },
+              {
+                "name": "TermId",
+                "value": "EFO_0000629"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "sampling site",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sampling site"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-8410",
+            "type": "Experimental Factors",
+            "attributes": [
+              {
+                "name": "Sampling site",
+                "value": "normal tissue adjacent to neoplasm"
+              },
+              {
+                "name": "Sampling site",
+                "value": "neoplasm"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "18",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977674,ERS15977675,ERS15977677,ERS15977678,ERS15977680,ERS15977681,ERS15977683,ERS15977684,ERS15977686,ERS15977687,ERS15977689,ERS15977690,ERS15977692,ERS15977693,ERS15977695,ERS15977696,ERS15977698,ERS15977699"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_1",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "9",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977676,ERS15977679,ERS15977682,ERS15977685,ERS15977688,ERS15977691,ERS15977694,ERS15977697,ERS15977700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "source_chars-E-MTAB-8410",
+            "type": "Source Characteristics",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Developmental stage",
+                "value": "adult"
+              },
+              {
+                "name": "Disease",
+                "value": "colorectal cancer"
+              },
+              {
+                "name": "Organism part",
+                "value": "colon"
+              },
+              {
+                "name": "Age",
+                "value": "33 year"
+              },
+              {
+                "name": "Age",
+                "value": "77 year"
+              },
+              {
+                "name": "Age",
+                "value": "84 year"
+              },
+              {
+                "name": "Age",
+                "value": "81 year"
+              },
+              {
+                "name": "Age",
+                "value": "52 year"
+              },
+              {
+                "name": "Age",
+                "value": "85 year"
+              },
+              {
+                "name": "Age",
+                "value": "86 year"
+              },
+              {
+                "name": "Age",
+                "value": "50 year"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Individual",
+                "value": "SC031"
+              },
+              {
+                "name": "Individual",
+                "value": "SC030"
+              },
+              {
+                "name": "Individual",
+                "value": "SC024"
+              },
+              {
+                "name": "Individual",
+                "value": "SC029"
+              },
+              {
+                "name": "Individual",
+                "value": "SC027"
+              },
+              {
+                "name": "Individual",
+                "value": "SC028"
+              },
+              {
+                "name": "Individual",
+                "value": "SC001"
+              },
+              {
+                "name": "Individual",
+                "value": "SC021"
+              },
+              {
+                "name": "Individual",
+                "value": "SC019"
+              },
+              {
+                "name": "Sampling site",
+                "value": "normal tissue adjacent to neoplasm"
+              },
+              {
+                "name": "Sampling site",
+                "value": "neoplasm"
+              },
+              {
+                "name": "Specimen",
+                "value": "EXT001"
+              },
+              {
+                "name": "Specimen",
+                "value": "EXT002"
+              },
+              {
+                "name": "Specimen",
+                "value": "EXT003"
+              },
+              {
+                "name": "Specimen",
+                "value": "... 24 other values"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "81 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC001"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977674-ERS15977675"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_1",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "81 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC001"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977676"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_2",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "86 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC019"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977677-ERS15977678"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_3",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "86 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC019"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977679"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_4",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC021"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977680-ERS15977681"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_5",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "50 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC021"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977682"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_6",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "33 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC024"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977683-ERS15977684"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_7",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "33 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC024"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977685"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_8",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "81 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC027"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977686-ERS15977687"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_9",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "81 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC027"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977688"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_10",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC028"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977689-ERS15977690"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_11",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "52 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC028"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977691"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_12",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC029"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977692-ERS15977693"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_13",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "77 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC029"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977694"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_14",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "84 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC030"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977695-ERS15977696"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_15",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "84 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC030"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977697"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_16",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "85 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC031"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "2",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977698-ERS15977699"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_17",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "age",
+                      "value": "85 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "individual",
+                      "value": "SC031"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to neoplasm"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS15977700"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-8410",
+        "type": "Assays and Data",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "172"
+          },
+          {
+            "name": "Technology",
+            "value": "Sequencing assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "mt-E-MTAB-8410",
+            "type": "MAGE-TAB Files",
+            "files": [
+              [
+                {
+                  "path": "E-MTAB-8410.idf.txt",
+                  "size": 25802,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "E-MTAB-8410.sdrf.txt",
+                  "size": 457616,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "score-E-MTAB-8410",
+        "type": "MINSEQE Score",
+        "attributes": [
+          {
+            "name": "Exp. Design",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "submission"
+}

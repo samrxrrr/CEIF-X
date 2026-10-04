@@ -1,0 +1,14 @@
+section	metric	value
+INPUT	significant_enrichment_rows	432
+INPUT	target_terms	25
+OUTPUT	gene_composition_rows	183
+OUTPUT	functional_modules	18
+OUTPUT	unique_gene_symbols	100
+OUTPUT	shared_core_modules	66
+INTEGRITY	raw_data_modified	NO
+INTEGRITY	frozen_upstream_outputs_modified	NO
+INTEGRITY	enrichment_results_modified	NO
+INTEGRITY	candidate_membership_changed	NO
+METHOD	source	L2 enrichment Genes field
+METHOD	selection	L2 significant terms in corrected v2 comparison
+STATUS	status	PASS

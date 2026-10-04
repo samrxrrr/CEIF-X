@@ -1,0 +1,1560 @@
+{
+  "accno": "E-MTAB-6653",
+  "attributes": [
+    {
+      "name": "Title",
+      "value": "Single cell sequencing of 3 lung carcinomas"
+    },
+    {
+      "name": "ReleaseDate",
+      "value": "2018-08-18"
+    },
+    {
+      "name": "RootPath",
+      "value": "E-MTAB-6653"
+    },
+    {
+      "name": "AttachTo",
+      "value": "ArrayExpress"
+    }
+  ],
+  "section": {
+    "accno": "s-E-MTAB-6653",
+    "type": "Study",
+    "attributes": [
+      {
+        "name": "Title",
+        "value": "Single cell sequencing of 3 lung carcinomas"
+      },
+      {
+        "name": "Study type",
+        "value": "RNA-seq of coding RNA from single cells",
+        "valqual": [
+          {
+            "name": "Ontology",
+            "value": "EFO"
+          },
+          {
+            "name": "TermId",
+            "value": "EFO_0005684"
+          }
+        ]
+      },
+      {
+        "name": "Study type",
+        "value": "differential"
+      },
+      {
+        "name": "Organism",
+        "value": "Homo sapiens"
+      },
+      {
+        "name": "Description",
+        "value": "Single cell sequencing of 3 lung tumours. 3 malignant tumor parts were sequenced for each tumor"
+      }
+    ],
+    "links": [
+      [
+        {
+          "url": "E-MTAB-6149",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "Biostudies"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "url": "ERP110453",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "ENA"
+            }
+          ]
+        },
+        {
+          "url": "E-MTAB-6653",
+          "attributes": [
+            {
+              "name": "Type",
+              "value": "gxa-sc"
+            }
+          ]
+        }
+      ]
+    ],
+    "subsections": [
+      [
+        {
+          "accno": "P-MTAB-73459",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-73459"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid sequencing protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004170"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Libraries were sequenced on an Illumina HiSeq4000. Demultiplexing according to the sample barcodes was done by mkfast from the Cellanger package. 2 fastq files were generated per sample. The R1 fastq contains the cell barcode and UMI i.e. the i7 (14nt, positions 1-14) and the i5 (10nt, positions 15-25) and the R2 which contains the cDNA (88nt)."
+            },
+            {
+              "name": "Hardware",
+              "value": "Illumina HiSeq 4000"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-73458",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-73458"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid library construction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0004184"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Samples were processed using kits pertaining to  V2 barcoding chemistry of 10X Genomics."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-73457",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-73457"
+            },
+            {
+              "name": "Type",
+              "value": "nucleic acid extraction protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0002944"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Single cell suspensions were converted to barcoded Drop-seq libraries by using the Chromium Single Cell 3\u2019 Library, Gel Bead & Multiplex Kit and Chip Kit (10X Genomics; Pleasanton, California, USA), aiming for an estimated 4,000 cells per library."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        },
+        {
+          "accno": "P-MTAB-73456",
+          "type": "Protocols",
+          "attributes": [
+            {
+              "name": "Name",
+              "value": "P-MTAB-73456"
+            },
+            {
+              "name": "Type",
+              "value": "sample collection protocol",
+              "valqual": [
+                {
+                  "name": "Ontology",
+                  "value": "EFO"
+                },
+                {
+                  "name": "TermId",
+                  "value": "EFO_0005518"
+                }
+              ]
+            },
+            {
+              "name": "Description",
+              "value": "Following resection in the operating room, samples from the tumour and adjacent lung tissue from the same resection specimen at maximal distance (>5\u2005cm) from the tumour were isolated, and transported rapidly to the research facility. Upon arrival, samples were rinsed with PBS, and the tumour sample macroscopically examined for tumour positioning. The tumour sample was subsequently divided in 3 pieces, with one piece containing mainly tissue derived from the tumour core, one piece containing tissue mainly derived from the tumour edge, and a third piece originating from the position intermediate to both samples. Each sample was subsequently minced on ice to smaller pieces of less than 1 mm3, and transferred to 10 mL digestion medium. Samples were incubated for 15 minutes at 37\u00b0C, with manual shaking every 5 minutes. Samples were then vortexed for 10 seconds, and pipetted up and down for 1 minute using pipettes of descending sizes (25 mL, 10 mL and 5 mL). Next, 30 mL ice-cold phosphate-buffered saline, pH 7.4 (PBS; ThermoFisher Scientific) containing 2% foetal bovine serum (ThermoFisher Scientific) was added, samples were filtered using a 40\u00b5m nylon mesh (ThermoFisher Scientific). Following centrifugation at 120 G at 4\u00b0C for 5 minutes, the supernatant was decanted and discarded, and the cell pellet was resuspended in 2 mL red blood cell lysis buffer and transferred to a 2 mL DNA low bind tube. Following a 5-minute incubation at room temperature, samples were centrifuged (120 G, 4\u00b0C, 5 min) using a swing-out rotor. Samples were next resuspended in 1 mL PBS containing 8 \u00b5L UltraPure bovine serum albumin (50 mg/mL; AM2616, ThermoFisher Scientific) and filtered over Scienceware Flowmi 40 \u00b5m cell strainers (VWR) using wide bore 1 mL low retention filter tips (Mettler-Toledo). 10 \u00b5L of this cell suspension was next counted using an automated cell counter (Luna) to determine the concentration of live cells."
+            },
+            {
+              "name": "Hardware"
+            }
+          ]
+        }
+      ],
+      {
+        "type": "Author",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "Bram Boeckx"
+          },
+          {
+            "name": "Email",
+            "value": "bram.boeckx@vib-kuleuven.be"
+          },
+          {
+            "name": "Role",
+            "value": "investigator;submitter"
+          },
+          {
+            "name": "affiliation",
+            "value": "o1",
+            "reference": true
+          }
+        ]
+      },
+      {
+        "accno": "o1",
+        "type": "Organization",
+        "attributes": [
+          {
+            "name": "Name",
+            "value": "VIB Center for Cancer Biology (CCB) Laboratory for Translational Genetics  Department of Human Genetics KULeuven"
+          },
+          {
+            "name": "Address",
+            "value": "Campus Gasthuisberg, O&N4 Herestraat 49-B912 B-3000 Leuven, Belgium"
+          }
+        ]
+      },
+      {
+        "accno": "29988129",
+        "type": "Publication",
+        "attributes": [
+          {
+            "name": "Title",
+            "value": "Phenotype molding of stromal cells in the lung tumor microenvironment"
+          },
+          {
+            "name": "Authors",
+            "value": "Lambrechts D, Wauters E, Boeckx B, Aibar S, Nittner D, Burton O, Bassez A, Decaluw\u00e9 H, Pircher A, Van den Eynde K, Weynand B, Verbeken E, De Leyn P, Liston A, Vansteenkiste J, Carmeliet P, Aerts S, Thienpont B"
+          },
+          {
+            "name": "DOI",
+            "value": "10.1038/s41591-018-0096-5"
+          }
+        ]
+      },
+      {
+        "accno": "s-samples-factors-E-MTAB-6653",
+        "type": "Samples",
+        "attributes": [
+          {
+            "name": "Sample count",
+            "value": "12"
+          },
+          {
+            "name": "Experimental Designs",
+            "value": "observational design",
+            "valqual": [
+              {
+                "name": "Ontology",
+                "value": "EFO"
+              },
+              {
+                "name": "TermId",
+                "value": "EFO_0000629"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "individual",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "individual"
+              }
+            ]
+          },
+          {
+            "name": "Experimental Factors",
+            "value": "sampling site",
+            "valqual": [
+              {
+                "name": "TermName",
+                "value": "sampling site"
+              }
+            ]
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "exp_factor-E-MTAB-6653",
+            "type": "Experimental Factors",
+            "attributes": [
+              {
+                "name": "Individual",
+                "value": "7"
+              },
+              {
+                "name": "Individual",
+                "value": "6"
+              },
+              {
+                "name": "Individual",
+                "value": "8"
+              },
+              {
+                "name": "Sampling site",
+                "value": "tumour edge"
+              },
+              {
+                "name": "Sampling site",
+                "value": "normal tissue adjacent to tumour"
+              },
+              {
+                "name": "Sampling site",
+                "value": "tumour core"
+              },
+              {
+                "name": "Sampling site",
+                "value": "tumour middle (in between core and edge sample)"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "factors_0",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to tumour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657938"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_1",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour edge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657939"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_2",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour middle (in between core and edge sample)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657940"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_3",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour core"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657941"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_4",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour core"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657942"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_5",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour middle (in between core and edge sample)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657943"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_6",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour edge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657944"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_7",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to tumour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657945"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_8",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour core"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657946"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_9",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour middle (in between core and edge sample)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657947"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_10",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour edge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657948"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "factors_11",
+                  "type": "Factors Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to tumour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657949"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "source_chars-E-MTAB-6653",
+            "type": "Source Characteristics",
+            "attributes": [
+              {
+                "name": "Organism",
+                "value": "Homo sapiens"
+              },
+              {
+                "name": "Organism part",
+                "value": "lung"
+              },
+              {
+                "name": "Disease",
+                "value": "lung carcinoma"
+              },
+              {
+                "name": "Individual",
+                "value": "7"
+              },
+              {
+                "name": "Individual",
+                "value": "6"
+              },
+              {
+                "name": "Individual",
+                "value": "8"
+              },
+              {
+                "name": "Age",
+                "value": "55 year"
+              },
+              {
+                "name": "Age",
+                "value": "65 year"
+              },
+              {
+                "name": "Age",
+                "value": "60 year"
+              },
+              {
+                "name": "Sex",
+                "value": "female"
+              },
+              {
+                "name": "Sex",
+                "value": "male"
+              },
+              {
+                "name": "Sampling site",
+                "value": "tumour edge"
+              },
+              {
+                "name": "Sampling site",
+                "value": "normal tissue adjacent to tumour"
+              },
+              {
+                "name": "Sampling site",
+                "value": "tumour core"
+              },
+              {
+                "name": "Sampling site",
+                "value": "tumour middle (in between core and edge sample)"
+              }
+            ],
+            "subsections": [
+              [
+                {
+                  "accno": "source_0",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to tumour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657938"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_1",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour edge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657939"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_2",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour middle (in between core and edge sample)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657940"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_3",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "6"
+                    },
+                    {
+                      "name": "age",
+                      "value": "65 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour core"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657941"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_4",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour core"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657942"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_5",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour middle (in between core and edge sample)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657943"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_6",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour edge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657944"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_7",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "7"
+                    },
+                    {
+                      "name": "age",
+                      "value": "60 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "male"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to tumour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657945"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_8",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour core"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657946"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_9",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour middle (in between core and edge sample)"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657947"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_10",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "tumour edge"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657948"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "accno": "source_11",
+                  "type": "Characteristics Table",
+                  "attributes": [
+                    {
+                      "name": "individual",
+                      "value": "8"
+                    },
+                    {
+                      "name": "age",
+                      "value": "55 year"
+                    },
+                    {
+                      "name": "sex",
+                      "value": "female"
+                    },
+                    {
+                      "name": "sampling site",
+                      "value": "normal tissue adjacent to tumour"
+                    },
+                    {
+                      "name": "No. of Samples",
+                      "value": "1",
+                      "valqual": [
+                        {
+                          "name": "url",
+                          "value": "https://www.ebi.ac.uk/ena/browser/view/ERS2657949"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "s-assays-data-E-MTAB-6653",
+        "type": "Assays and Data",
+        "attributes": [
+          {
+            "name": "Assay count",
+            "value": "12"
+          },
+          {
+            "name": "Technology",
+            "value": "Sequencing assay"
+          },
+          {
+            "name": "Assay by Molecule",
+            "value": "RNA assay"
+          }
+        ],
+        "subsections": [
+          {
+            "accno": "raw-data",
+            "type": "Raw Data",
+            "files": [
+              [
+                {
+                  "path": "scrBT1429m_S0_L001_R1_001.fastq.gz",
+                  "size": 7615363114,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1429m_S0_L001_R2_001.fastq.gz",
+                  "size": 25295014785,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1430m_S0_L002_R1_001.fastq.gz",
+                  "size": 7381295073,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1430m_S0_L002_R2_001.fastq.gz",
+                  "size": 24982386220,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1431m_S0_L003_R1_001.fastq.gz",
+                  "size": 7357434501,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1c"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1431m_S0_L003_R2_001.fastq.gz",
+                  "size": 25082340284,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1c"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1432m_S0_L004_R1_001.fastq.gz",
+                  "size": 7823666916,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1d"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1432m_S0_L004_R2_001.fastq.gz",
+                  "size": 26878496897,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 1d"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1375_S5_L004_R1_001.fastq.gz",
+                  "size": 7380362118,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1375_S5_L004_R2_001.fastq.gz",
+                  "size": 17179122351,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1376_S6_L005_R1_001.fastq.gz",
+                  "size": 6887574407,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1376_S6_L005_R2_001.fastq.gz",
+                  "size": 15625664230,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1377_S7_L006_R1_001.fastq.gz",
+                  "size": 7971372557,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2c"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1377_S7_L006_R2_001.fastq.gz",
+                  "size": 18523546405,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2c"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1378_S8_L007_R1_001.fastq.gz",
+                  "size": 7752833733,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2d"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "BT1378_S8_L007_R2_001.fastq.gz",
+                  "size": 18417518538,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 2d"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1425_hg19_S11_L006_R1_001.fastq.gz",
+                  "size": 2681766987,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1425_hg19_S11_L006_R2_001.fastq.gz",
+                  "size": 9323858563,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3a"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1426_hg19_S12_L006_R1_001.fastq.gz",
+                  "size": 3453736673,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1426_hg19_S12_L006_R2_001.fastq.gz",
+                  "size": 11908162646,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3b"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1427_hg19_S13_L007_R1_001.fastq.gz",
+                  "size": 3387128265,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3c"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1427_hg19_S13_L007_R2_001.fastq.gz",
+                  "size": 11643536573,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3c"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1428_hg19_S14_L007_R1_001.fastq.gz",
+                  "size": 2784334940,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3d"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 1"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "scrBT1428_hg19_S14_L007_R2_001.fastq.gz",
+                  "size": 9553243099,
+                  "attributes": [
+                    {
+                      "name": "Samples",
+                      "value": "Sample 3d"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Read 2"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          },
+          {
+            "accno": "mt-E-MTAB-6653",
+            "type": "MAGE-TAB Files",
+            "files": [
+              [
+                {
+                  "path": "E-MTAB-6653.idf.txt",
+                  "size": 5471,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "IDF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Investigation Design Format (IDF)"
+                    }
+                  ],
+                  "type": "file"
+                },
+                {
+                  "path": "E-MTAB-6653.sdrf.txt",
+                  "size": 10759,
+                  "attributes": [
+                    {
+                      "name": "Type",
+                      "value": "SDRF File"
+                    },
+                    {
+                      "name": "Format",
+                      "value": "tab-delimited text"
+                    },
+                    {
+                      "name": "Description",
+                      "value": "Sample and Data Relationship Format (SDRF)"
+                    }
+                  ],
+                  "type": "file"
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "accno": "score-E-MTAB-6653",
+        "type": "MINSEQE Score",
+        "attributes": [
+          {
+            "name": "Exp. Design",
+            "value": "*"
+          },
+          {
+            "name": "Protocols",
+            "value": "*"
+          },
+          {
+            "name": "Variables",
+            "value": "*"
+          },
+          {
+            "name": "Processed",
+            "value": "-"
+          },
+          {
+            "name": "Raw",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "type": "submission"
+}

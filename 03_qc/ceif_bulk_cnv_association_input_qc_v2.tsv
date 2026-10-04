@@ -1,0 +1,13 @@
+metric	value
+locked_cases	2332
+unique_selected_bulk_samples	2332
+unique_selected_cnv_samples	2332
+bulk_matrix_total_samples	2332
+cnv_matrix_total_samples	3514
+bulk_selected_samples_missing	0
+cnv_selected_samples_missing	0
+bulk_expression_features	19394
+cnv_features	60623
+forced_mapping	NO
+matrix_modification	NO
+association_input_status	PASS

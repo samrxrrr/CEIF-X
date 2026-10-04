@@ -1,0 +1,14 @@
+metric	value
+input_genes	60660
+input_samples	2332
+zero_library_samples	0
+cpm_threshold	1
+minimum_samples_required	234
+genes_retained	19394
+genes_removed	41266
+retention_fraction	0.319716
+minimum_library_size	1456498
+median_library_size	52335718
+mean_library_size	53319974.5
+maximum_library_size	160834696
+status	PASS

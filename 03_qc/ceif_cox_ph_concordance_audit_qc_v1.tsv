@@ -1,0 +1,19 @@
+metric	value
+candidate_genes	335
+interaction_ph_fdr_lt_0.05	280
+schoenfeld_ph_fdr_lt_0.05	2
+concordant_ph_concerns	2
+interaction_only_ph_concerns	278
+schoenfeld_only_ph_concerns	0
+no_ph_concern_by_either	55
+interaction_only_fraction_of_interaction_flags	0.992857
+concordant_fraction_of_schoenfeld_flags	1.0
+concordant_negative_rho	2
+concordant_positive_rho	0
+interaction_results_modified	NO
+schoenfeld_results_modified	NO
+primary_cox_results_modified	NO
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+interpretation	Schoenfeld residual diagnostic is the independent PH adjudication; time-interaction flags without Schoenfeld support remain sensitivity signals because the original interaction models exhibited convergence warnings.
+status	PASS

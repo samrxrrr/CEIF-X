@@ -1,0 +1,2 @@
+survival_cases	mapped_cases	mapped_bulk_samples	bulk_samples_available	signal_genes	signal_genes_in_bulk	duplicate_case_mappings	all_survival_cases_mapped	all_bulk_samples_present	signal_feature_overlap_complete	endpoint_valid	alignment_status
+1814	1814	1814	2332	1356	1356	0	True	True	True	True	PASS

@@ -1,0 +1,11 @@
+metric	value
+frozen_integration_cases	2332
+alignment_cases	2332
+exact_one_to_one_cases	1205
+exact_match_multisample_context	1127
+multiple_exact_match_cases	0
+no_exact_sample_match_cases	0
+selected_unambiguous_cases	1205
+forced_mapping	NO
+biological_modeling	NOT_PERFORMED
+final_status	PASS

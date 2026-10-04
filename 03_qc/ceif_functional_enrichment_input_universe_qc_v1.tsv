@@ -1,0 +1,17 @@
+metric	value
+integrated_candidates	335
+filtered_expression_background_genes	19394
+candidate_genes_in_background	335
+candidate_genes_missing_from_background	0
+background_only_genes	19059
+candidate_background_coverage_fraction	1.0
+universe_duplicate_gene_ids	0
+candidate_rows_in_universe	335
+background_only_rows_in_universe	19059
+enrichment_background_definition	All genes retained by authoritative bulk-expression filtering: CPM >=1 in >=10% of the 2332-sample analysis cohort
+candidate_definition	335 frozen integrated molecular-survival candidates
+genome_wide_background_used	NO
+candidate_membership_modified	NO
+expression_matrix_modified	NO
+raw_data_modified	NO
+status	PASS

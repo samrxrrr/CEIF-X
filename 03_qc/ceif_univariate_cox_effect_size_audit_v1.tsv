@@ -1,0 +1,16 @@
+metric	value
+rows	1356
+duplicate_gene_ids	0
+missing_hazard_ratio	0
+missing_p_value	0
+missing_fdr	0
+fdr_below_0.05	385
+fdr_below_0.01	203
+fdr_below_0.001	73
+hr_below_1	933
+hr_above_1	423
+abs_log_hr_ge_0.20	709
+abs_log_hr_ge_0.30	405
+abs_log_hr_ge_0.50	85
+abs_log_hr_ge_0.693	6
+abs_log_hr_ge_1.00	0

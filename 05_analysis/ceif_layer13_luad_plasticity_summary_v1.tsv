@@ -1,0 +1,4 @@
+cluster	state_label	ambiguity	active_state_domains	state_domain_count	proliferation_signal	EMT_signal	interferon_signal	stress_hypoxia_signal	EGFR_ERBB_signal	epithelial_differentiation_signal	secretory_signal	basal_like_signal	plasticity_class	dominant_dataset	dominant_dataset_fraction	dataset_restriction_flag	LUAD_plasticity_evidence	temporal_transition_proven	lineage_transition_proven	malignancy_confirmed
+23				0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	LOW_STATE_HETEROGENEITY	SC002_fraction	0.9770368040264236	STRONG_DATASET_RESTRICTION	LIMITED_OR_LOW_STATE_HETEROGENEITY	False	False	False
+24				0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	LOW_STATE_HETEROGENEITY	SC002_fraction	0.9773043075497916	STRONG_DATASET_RESTRICTION	LIMITED_OR_LOW_STATE_HETEROGENEITY	False	False	False
+25				0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	LOW_STATE_HETEROGENEITY	SC002_fraction	0.9972972972972972	STRONG_DATASET_RESTRICTION	LIMITED_OR_LOW_STATE_HETEROGENEITY	False	False	False

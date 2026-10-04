@@ -1,0 +1,13 @@
+metric	value
+frozen_complete_cases	2332
+clinical_records_present	2332
+clinical_records_missing	0
+clinical_endpoint_rows_with_columns	2332
+clinical_validation_pass	0
+molecular_mapping_ready	2332
+three_layer_ready	0
+three_layer_review	2332
+duplicate_case_keys	0
+forced_mapping	NO
+raw_molecular_matrices_modified	NO
+final_status	REVIEW

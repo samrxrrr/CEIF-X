@@ -1,0 +1,18 @@
+metric	value
+candidate_genes_requested	335
+candidate_genes_diagnosed	335
+diagnostics_failed	0
+insufficient_or_constant	0
+schoenfeld_raw_p_lt_0.05	40
+schoenfeld_bh_fdr_lt_0.05	2
+schoenfeld_bh_fdr_ge_0.05	333
+warning_seen	0
+os_cases_used	1851
+os_events_used	176
+event_time_residual_test	Spearman residual vs log(time+1)
+multiple_testing	Benjamini-Hochberg FDR
+primary_cox_results_modified	NO
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+original_ph_results_modified	NO
+status	PASS

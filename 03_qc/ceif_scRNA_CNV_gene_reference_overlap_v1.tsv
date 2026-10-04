@@ -1,0 +1,5 @@
+dataset_id	accession	scRNA_gene_ids	unique_base_ensembl_ids	CNV_reference_overlap	not_in_CNV_reference	overlap_percent
+SC001	E-MTAB-6653	23979	23979	21659	2320	90.3249
+SC002	E-MTAB-8410	26204	26204	23637	2567	90.2038
+SC003	E-GEOD-75688	28670	28670	25717	2953	89.7
+SC004	E-MTAB-8559	23284	23284	21289	1995	91.4319

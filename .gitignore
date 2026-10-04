@@ -1,0 +1,166 @@
+# ================================
+# CEIF-X repository exclusions
+# ================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+*.conda/
+*.tar.bz2
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials / secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+token*
+*secret*
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+/tmp/
+tmp/
+scratch/
+cache/
+*_cache/
+
+# Large biological/raw data
+*.h5ad
+*.h5
+*.hdf5
+*.mtx
+*.mtx.gz
+*.npz
+*.npy
+*.RData
+*.rds
+*.loom
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.vcf
+*.vcf.gz
+*.bed
+*.bed.gz
+*.bigWig
+*.bw
+
+# Large compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Local acquisition/download areas
+downloads/
+download/
+raw/
+raw_data/
+data_raw/
+01_DATA_ACQUISITION/
+16_multiomics_acquisition_v1/downloads/
+
+# Large/generated matrices and intermediate objects
+*_matrix.tsv
+*_matrix.tsv.gz
+*_expression.tsv
+*_expression.tsv.gz
+*_counts.tsv
+*_counts.tsv.gz
+*_normalized.tsv
+*_normalized.tsv.gz
+
+# Local scratch outputs
+/tmp/
+*.bak
+*.old
+
+# Keep publication figures/tables and reproducibility metadata tracked.
+# Keep scripts, specifications, manifests, QC summaries and final analysis
+# tables unless explicitly excluded above.
+
+# ================================
+# CEIF-X project-specific large data
+# ================================
+
+# Bulk expression matrices
+04_bulk_transcriptomics/bulk_counts_analysis_cohort_v1.tsv
+04_bulk_transcriptomics/bulk_counts_unstranded_v1.tsv
+04_bulk_transcriptomics/bulk_counts_filtered_v1.tsv
+04_bulk_transcriptomics/bulk_log2cpm_v1.tsv
+
+# CNV matrices
+04_cnv/cnv_copy_number_matrix_v1.tsv
+04_cnv/cnv_log2_copy_number_v1.tsv
+04_cnv/cnv_state_matrix_v1.tsv
+
+# Single-cell matrix containers
+03_single_cell_transcriptomics/anndata_v1/
+03_single_cell_transcriptomics/normalized_v1/
+03_single_cell_transcriptomics/harmony_v1/*.h5ad
+03_single_cell_transcriptomics/clustering_v1/*.h5ad
+03_single_cell_transcriptomics/harmonized_expression_v1/*.npz
+
+# LIANA / regulatory large intermediate objects
+05_analysis/layer7_size_matched_liana_inputs_v1/
+05_analysis/layer7_size_matched_liana_inputs_v2/
+05_analysis/layer7_size_matched_liana_inputs_v3/
+05_analysis/ceif_layer8_ABC_sensitivity_v1/
+05_analysis/ceif_layer8_tf_activity_v1/
+
+# Biological acquisition archives
+16_multiomics_acquisition_v1/scRNA/processed/
+16_multiomics_acquisition_v1/scRNA/metadata/
+
+# Any other HDF5/AnnData-like objects
+*.h5ad
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# ================================
+# CEIF-X additional large outputs
+# ================================
+
+# Large PCA / dimensionality-reduction matrices
+03_analysis/ceif_scRNA_preintegration_pca_v1.tsv
+
+# Large TF activity matrices
+05_analysis/ceif_layer8_tf_activity_v1/
+
+# Any generated single-cell communication run logs
+05_analysis/*_run.log
+
+# General large TSV safeguard: files >50 MB must be explicitly force-added
+# only after deliberate review. Git itself has no size-based .gitignore rule.

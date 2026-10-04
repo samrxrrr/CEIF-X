@@ -1,0 +1,27 @@
+dataset_id	disease	organism_part	sampling_site	histology	cells	min_n_genes	median_n_genes	max_n_genes	below_200	below_300	below_500
+SC001	lung carcinoma	lung	normal tissue adjacent to tumour		11117	147	1525	9541	9	32	143
+SC001	lung carcinoma	lung	tumour core		6166	137	1382.0	10274	1	12	276
+SC001	lung carcinoma	lung	tumour edge		6540	89	1552.0	10758	41	87	389
+SC001	lung carcinoma	lung	tumour middle (in between core and edge sample)		8518	144	1495.0	11010	11	46	609
+SC002	colorectal cancer	ascending colon	normal tissue adjacent to neoplasm		2537	210	1315	8400	0	4	68
+SC002	colorectal cancer	ascending colon	tumour border		386	1004	3703.5	8908	0	0	0
+SC002	colorectal cancer	ascending colon	tumour core		315	1015	3556	10281	0	0	0
+SC002	colorectal cancer	caecum	normal tissue adjacent to neoplasm		2496	208	1846.0	7478	0	17	125
+SC002	colorectal cancer	caecum	tumour border		3320	401	1854.5	10401	0	0	24
+SC002	colorectal cancer	caecum	tumour core		2993	422	1968	10707	0	0	23
+SC002	colorectal cancer	colon	normal tissue adjacent to neoplasm		5629	63	1313	10779	18	61	316
+SC002	colorectal cancer	colon	tumour border		6762	153	1226.5	9715	17	80	323
+SC002	colorectal cancer	colon	tumour core		5736	135	1296.0	9130	12	63	258
+SC002	colorectal cancer	rectosigmoid junction	normal tissue adjacent to neoplasm		2250	222	1677.0	8089	0	13	106
+SC002	colorectal cancer	rectosigmoid junction	tumour border		3914	242	1282.5	9024	0	8	172
+SC002	colorectal cancer	rectosigmoid junction	tumour core		4012	312	1339.0	10029	0	0	327
+SC002	colorectal cancer	sigmoid colon	normal tissue adjacent to neoplasm		4702	129	1222.0	7473	24	68	265
+SC002	colorectal cancer	sigmoid colon	tumour border		3940	282	1992.0	9073	0	1	128
+SC002	colorectal cancer	sigmoid colon	tumour core		3595	175	1772	10711	2	24	156
+SC003	breast carcinoma	breast	primary tumor	HER2 positive breast carcinoma	148	4109	11383.0	14471	0	0	0
+SC003	breast carcinoma	breast	primary tumor	estrogen-receptor positive and HER2 positive breast cancer	36	7551	10886.0	12867	0	0	0
+SC003	breast carcinoma	breast	primary tumor	estrogen-receptor positive breast cancer	75	3678	10323	12975	0	0	0
+SC003	breast carcinoma	breast	primary tumor	triple-negative breast cancer	154	4040	10027.0	13804	0	0	0
+SC003	breast carcinoma	lymph node	metastasis to lymph node	estrogen-receptor positive and HER2 positive breast cancer	54	4347	10108.5	13723	0	0	0
+SC003	breast carcinoma	lymph node	metastasis to lymph node	triple-negative breast cancer	53	2926	11312	12483	0	0	0
+SC004	ovarian carcinoma	peritoneal fluid			19880	451	2838.0	8122	0	0	2

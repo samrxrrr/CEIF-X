@@ -1,0 +1,12 @@
+metric	value
+matrix_samples	2653
+matrix_genes	60660
+metadata_rows	2653
+metadata_columns	9
+duplicate_matrix_sample_ids	0
+duplicate_gene_ids	0
+empty_gene_ids	0
+all_zero_genes	2412
+nonzero_gene_cells	86602456
+matrix_samples_missing_metadata	0
+metadata_samples_missing_matrix	0

@@ -1,0 +1,23 @@
+metric	value
+genes	60623
+samples	3510
+total_cells	212786730
+loss_cells	17128527
+neutral_cells	97420612
+gain_cells	85597851
+missing_cells	12639740
+loss_fraction_all_cells	0.08049621797374301
+neutral_fraction_all_cells	0.45783217778665053
+gain_fraction_all_cells	0.4022706256165504
+missing_fraction_all_cells	0.05940097862305605
+loss_cutoff	1.5
+gain_cutoff	2.5
+state_definition	LOSS <1.5; NEUTRAL 1.5-2.5; GAIN >2.5
+input_matrix_modified	NO
+log2_matrix_modified	NO
+raw_cnv_modified	NO
+imputation	NONE
+unexpected_states	0
+non_numeric_nonmissing	0
+negative_cn_values	0
+final_status	PASS

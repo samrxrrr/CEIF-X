@@ -1,0 +1,18 @@
+metric	value
+integrated_candidates	335
+higher_hazard_associations	46
+lower_hazard_associations	289
+time_varying_ph_concerns	2
+survival_fdr_lt_0.001	72
+survival_fdr_lt_0.01	189
+survival_fdr_lt_0.05	335
+candidate_definition	Intersection of frozen 1,356 reproducible molecular signals and frozen 335 survival candidates
+new_statistical_filter	NO
+composite_score	NOT CREATED
+molecular_results_modified	NO
+survival_results_modified	NO
+dataset_consistency_results_modified	NO
+raw_expression_modified	NO
+raw_cnv_modified	NO
+raw_os_endpoint_modified	NO
+status	PASS

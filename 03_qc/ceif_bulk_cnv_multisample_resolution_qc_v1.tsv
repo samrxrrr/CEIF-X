@@ -1,0 +1,8 @@
+metric	value
+multisample_context_cases	1127
+one_bulk_multi_cnv	1127
+multi_bulk_one_cnv	0
+multi_bulk_multi_cnv_one_exact	0
+other	0
+forced_selection	NO
+status	PASS

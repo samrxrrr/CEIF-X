@@ -1,0 +1,29 @@
+dataset_id	individual	organism_part	sampling_site	high_mito_excluded_cells
+SC001	6	lung	normal tissue adjacent to tumour	1
+SC001	6	lung	tumour core	2
+SC001	6	lung	tumour edge	15
+SC001	6	lung	tumour middle (in between core and edge sample)	1
+SC001	7	lung	normal tissue adjacent to tumour	1
+SC001	7	lung	tumour core	2
+SC001	7	lung	tumour edge	1
+SC001	7	lung	tumour middle (in between core and edge sample)	2
+SC001	8	lung	normal tissue adjacent to tumour	2
+SC001	8	lung	tumour middle (in between core and edge sample)	3
+SC002	SC001 (KUL01)	caecum	normal tissue adjacent to neoplasm	28
+SC002	SC001 (KUL01)	caecum	tumour border	2
+SC002	SC001 (KUL01)	caecum	tumour core	17
+SC002	SC021 (KUL21)	sigmoid colon	tumour border	7
+SC002	SC021 (KUL21)	sigmoid colon	tumour core	5
+SC002	SC024	colon	normal tissue adjacent to neoplasm	3
+SC002	SC024	colon	tumour border	2
+SC002	SC024	colon	tumour core	17
+SC002	SC028 (KUL28)	sigmoid colon	normal tissue adjacent to neoplasm	1
+SC002	SC028 (KUL28)	sigmoid colon	tumour core	1
+SC002	SC030 (KUL30)	ascending colon	normal tissue adjacent to neoplasm	1
+SC002	SC031 (KUL31)	sigmoid colon	tumour border	1
+SC003	BC01	breast	primary tumor	1
+SC003	BC02	breast	primary tumor	1
+SC003	BC04	breast	primary tumor	1
+SC003	BC07	breast	primary tumor	1
+SC004	74-1	peritoneal fluid		8
+SC004	79	peritoneal fluid		2

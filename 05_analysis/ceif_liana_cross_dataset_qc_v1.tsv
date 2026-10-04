@@ -1,0 +1,5 @@
+dataset_id	rows	source_clusters	target_clusters	unique_lr_pairs	missing_cells	self_interactions	candidate_involving_rows
+SC001	149776	27	27	1805	0	6776	24536
+SC002	84570	21	21	1700	0	5027	31751
+SC003	53400	6	6	2203	0	8992	18152
+SC004	38341	11	11	823	0	3712	5271

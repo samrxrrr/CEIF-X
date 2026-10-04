@@ -1,0 +1,15 @@
+metric	value
+rows	335
+duplicate_gene_ids	0
+missing_interaction_coef	0
+missing_interaction_se	0
+missing_interaction_p	0
+missing_ph_fdr	0
+ph_concern_raw_p_lt_0.05	283
+ph_concern_bh_fdr_lt_0.05	280
+extreme_se_ge_10	0
+nonfinite_results	0
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+primary_cox_results_modified	NO
+interpretation	PH results require convergence review before final use

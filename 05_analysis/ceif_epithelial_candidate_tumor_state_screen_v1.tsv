@@ -1,0 +1,73 @@
+cluster	state_program	marker_hits	markers_detected	state_rank
+23	Proliferation	0		4.0
+23	EMT_mesenchymal	0		4.0
+23	Interferon	0		4.0
+23	Stress_hypoxia	0		4.0
+23	EGFR_ERBB_signaling	1	ERBB3	3.0
+23	Epithelial_differentiation	5	ELF3;EPCAM;KRT18;KRT19;KRT8	1.0
+23	Secretory	2	AGR2;KRT19	2.0
+23	Basal_like	1	KRT19	3.0
+23	Cell_cycle	0		4.0
+24	Proliferation	0		4.0
+24	EMT_mesenchymal	0		4.0
+24	Interferon	2	IFI27;IFI6	2.0
+24	Stress_hypoxia	0		4.0
+24	EGFR_ERBB_signaling	1	ERBB3	3.0
+24	Epithelial_differentiation	5	ELF3;EPCAM;KRT18;KRT19;KRT8	1.0
+24	Secretory	2	KRT19;TACSTD2	2.0
+24	Basal_like	1	KRT19	3.0
+24	Cell_cycle	0		4.0
+25	Proliferation	0		4.0
+25	EMT_mesenchymal	0		4.0
+25	Interferon	0		4.0
+25	Stress_hypoxia	0		4.0
+25	EGFR_ERBB_signaling	1	ERBB3	3.0
+25	Epithelial_differentiation	5	ELF3;EPCAM;KRT18;KRT19;KRT8	1.0
+25	Secretory	2	AGR2;KRT19	2.0
+25	Basal_like	1	KRT19	3.0
+25	Cell_cycle	0		4.0
+26	Proliferation	0		2.0
+26	EMT_mesenchymal	1	FN1	1.0
+26	Interferon	0		2.0
+26	Stress_hypoxia	0		2.0
+26	EGFR_ERBB_signaling	1	EGFR	1.0
+26	Epithelial_differentiation	1	KRT7	1.0
+26	Secretory	1	WFDC2	1.0
+26	Basal_like	1	KRT7	1.0
+26	Cell_cycle	0		2.0
+27	Proliferation	0		3.0
+27	EMT_mesenchymal	0		3.0
+27	Interferon	0		3.0
+27	Stress_hypoxia	2	NQO1;TXNRD1	1.0
+27	EGFR_ERBB_signaling	0		3.0
+27	Epithelial_differentiation	1	KRT7	2.0
+27	Secretory	0		3.0
+27	Basal_like	1	KRT7	2.0
+27	Cell_cycle	0		3.0
+29	Proliferation	8	AURKA;BIRC5;CENPF;MKI67;NUSAP1;TOP2A;TPX2;UBE2C	1.0
+29	EMT_mesenchymal	1	FN1	3.0
+29	Interferon	0		4.0
+29	Stress_hypoxia	0		4.0
+29	EGFR_ERBB_signaling	1	EGFR	3.0
+29	Epithelial_differentiation	1	KRT7	3.0
+29	Secretory	0		4.0
+29	Basal_like	1	KRT7	3.0
+29	Cell_cycle	6	AURKA;CCNB1;CDC20;MKI67;PLK1;TOP2A	2.0
+32	Proliferation	1	CENPF	2.0
+32	EMT_mesenchymal	0		3.0
+32	Interferon	0		3.0
+32	Stress_hypoxia	0		3.0
+32	EGFR_ERBB_signaling	0		3.0
+32	Epithelial_differentiation	2	KRT18;KRT7	1.0
+32	Secretory	0		3.0
+32	Basal_like	1	KRT7	2.0
+32	Cell_cycle	0		3.0
+33	Proliferation	0		3.0
+33	EMT_mesenchymal	1	ITGB1	2.0
+33	Interferon	4	IFI27;IFI44L;IFI6;ISG15	1.0
+33	Stress_hypoxia	1	TXNRD1	2.0
+33	EGFR_ERBB_signaling	0		3.0
+33	Epithelial_differentiation	0		3.0
+33	Secretory	0		3.0
+33	Basal_like	0		3.0
+33	Cell_cycle	0		3.0

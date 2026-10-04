@@ -1,0 +1,2 @@
+outer_folds	mean_ROC_AUC	sd_ROC_AUC	mean_average_precision	sd_average_precision	cases	events	features_input	feature_selection_per_fold	leakage_control
+5	0.5839662600899207	0.04266482066019184	0.16330582923757697	0.037692684933974686	1814	173	1356	True	PASS

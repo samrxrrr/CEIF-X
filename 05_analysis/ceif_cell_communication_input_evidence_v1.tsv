@@ -1,0 +1,35 @@
+cluster	working_celltype	annotation_uncertainty	ligand_hits	ligands_detected	receptor_hits	receptors_detected
+0	T/NK	LOW	2	CCL4;CCL5	1	CXCR4
+1	T cell	MODERATE	2	CCL4;CCL5	1	CXCR4
+2	T cell	LOW	0		1	CXCR4
+3	Myeloid	LOW	0		0	
+4	Macrophage/myeloid	LOW	0		0	
+5	Macrophage	LOW	0		0	
+6	Macrophage/myeloid	MODERATE	0		0	
+7	Myeloid/APC — unresolved	HIGH	1	SPP1	0	
+8	Ciliated epithelial	LOW	0		0	
+9	Endothelial	LOW	0		2	FLT1;TGFBR2
+10	Fibroblast	LOW	0		0	
+11	Alveolar epithelial	MODERATE	0		0	
+12	T/NK	HIGH	2	CCL4;CCL5	1	CXCR4
+13	Plasma cell	LOW	0		0	
+14	Cycling/proliferating	LOW	0		0	
+15	Epithelial/low-information — unresolved	HIGH	0		0	
+16	Secretory epithelial/plasma-like — unresolved	HIGH	1	AREG	0	
+17	Epithelial	MODERATE	1	MDK	0	
+18	B cell	LOW	0		1	CXCR4
+19	Fibroblast	MODERATE	3	CCL2;CXCL12;CXCL14	0	
+20	Mast cell	LOW	1	AREG	1	CD44
+21	Fibroblast	LOW	1	CXCL12	0	
+22	Smooth muscle/pericyte	LOW	0		2	ITGB1;NOTCH3
+23	Epithelial candidate	MODERATE	0		1	ERBB3
+24	Epithelial candidate	MODERATE	0		1	ERBB3
+25	Epithelial candidate	MODERATE	0		1	ERBB3
+26	Epithelial/stress — unresolved	HIGH	0		1	EGFR
+27	Epithelial/stress — unresolved	HIGH	0		0	
+28	Plasma cell	MODERATE	2	AREG;SPP1	0	
+29	Cycling epithelial	MODERATE	0		1	EGFR
+30	Stromal/mesenchymal — unresolved	HIGH	4	CXCL8;FGF2;VEGFA;WNT5A	1	ITGB1
+31	Neural-like	HIGH	1	SPP1	1	ERBB3
+32	Epithelial	MODERATE	0		0	
+33	Interferon/stress epithelial-like — unresolved	HIGH	1	MDK	1	ITGB1

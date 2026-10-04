@@ -1,0 +1,13 @@
+metric	value
+cohort_cases	2332
+unique_cases	2332
+event_dead	650
+event_alive	1682
+event_missing	0
+os_time_available	1851
+os_time_missing	481
+negative_times	0
+zero_times	37
+duplicate_case_keys	0
+dead_without_os_time	474
+alive_without_censor_time	7

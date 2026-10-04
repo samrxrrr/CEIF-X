@@ -1,0 +1,17 @@
+section	metric	value
+SUMMARY	layers_requested	3
+SUMMARY	l1_gene_count	1356
+SUMMARY	l2_gene_count	335
+SUMMARY	l3_gene_count	1021
+SUMMARY	background_gene_count	19394
+SUMMARY	background_symbol_count	18356
+SUMMARY	total_enrichment_result_rows	7895
+SUMMARY	raw_data_modified	NO
+SUMMARY	frozen_upstream_outputs_modified	NO
+SUMMARY	candidate_membership_changed	NO
+SUMMARY	background_definition_changed	NO
+SUMMARY	gseapy_api_compatible	YES
+SUMMARY	status	PASS
+LAYER	L1_MOLECULAR_REPRODUCIBLE	ID_RESOLUTION_PASS
+LAYER	L2_SURVIVAL_INTEGRATED	ID_RESOLUTION_PASS
+LAYER	L3_MOLECULAR_ONLY	ID_RESOLUTION_PASS

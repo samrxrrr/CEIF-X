@@ -1,0 +1,2 @@
+candidate_clusters	status	malignant_confirmation	cnv_validation_status	cell_case_linkage	interpretation	audit_date
+23;24;25	MALIGNANT_CANDIDATE_ONLY	NOT_CONFIRMED	BLOCKED	AUTHORITATIVE_CELL_TO_CASE_OR_SAMPLE_LINKAGE_UNAVAILABLE	Epithelial/malignant-associated marker evidence supports candidate status only; tumor-state characterization does not establish malignancy.	2026-10-04

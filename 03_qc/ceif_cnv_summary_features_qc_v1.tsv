@@ -1,0 +1,16 @@
+metric	value
+genes	60623
+samples	3510
+sample_feature_rows	3510
+dataset_summary_rows	4
+duplicate_sample_features	0
+missing_case_ids	0
+missing_dataset_ids	0
+state_loss_cells	17128527
+state_neutral_cells	97420612
+state_gain_cells	85597851
+state_missing_cells	12639740
+full_gene_level_matrices_modified	NO
+raw_cnv_modified	NO
+imputation	NONE
+final_status	PASS

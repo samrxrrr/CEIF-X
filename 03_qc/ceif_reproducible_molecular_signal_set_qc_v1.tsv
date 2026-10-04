@@ -1,0 +1,14 @@
+metric	value
+input_genes	19367
+fdr_lt_005	16184
+abs_r_ge_030	4447
+all_four_valid_r	19344
+all_positive	12959
+four_dataset_abs_r_ge_030	1402
+final_reproducible_signals	1356
+definition	FDR<0.05 + |r|>=0.30 + all 4 datasets positive + |r|>=0.30 in all 4
+clinical_outcomes_used	NO
+forced_mapping	NO
+raw_bulk_modified	NO
+raw_cnv_modified	NO
+status	PASS

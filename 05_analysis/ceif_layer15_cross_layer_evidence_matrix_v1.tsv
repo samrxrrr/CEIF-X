@@ -1,0 +1,15 @@
+layer	domain	status	evidence	claim_level
+1	Functional-module interpretation	READY	Functional-module interpretation framework established.	INTERPRETIVE
+2	L2 vs L3 gene comparison	COMPLETE	Completed prior molecular comparison.	SUPPORTED
+3	Single-cell integration	COMPLETE	104,683 retained cells across four acquired scRNA datasets.	SUPPORTED
+4	Malignant-cell identification	CANDIDATE-ONLY	Clusters 23, 24 and 25 are epithelial/malignant candidates; no confirmed malignancy.	CANDIDATE
+5	Tumor-state characterization	COMPLETE	Clusters 23–25 resolve primarily to epithelial differentiation with secretory/ERBB features.	SUPPORTED
+6	Annotation uncertainty	COMPLETE	Cluster-level uncertainty explicitly quantified.	SUPPORTED
+7	Cell-cell communication	COMPLETE	11,009 replicated computational communication edges.	COMPUTATIONAL_INFERENCE
+8	Regulatory/network analysis	COMPLETE	1016 recurrent TF-activity rows; computational regulatory inference.	COMPUTATIONAL_INFERENCE
+9	Cross-cancer conservation	COMPLETE	0 recurrent conserved candidate-TF records.	COMPUTATIONAL_CONSERVATION
+10	ML/predictive layer	COMPLETE_WITH_CAVEAT	Five-fold binary event-discrimination model showed modest predictive signal; event-count audit caveat retained.	PREDICTIVE_ASSOCIATION
+11	Independent validation	INTERNAL_ONLY	39 features showed orthogonal/internal concordance; no external cohort.	INTERNAL_VALIDATION
+12	Evidence integration	COMPLETE	Clusters 23–25 ranked by cross-layer evidence convergence.	PRIORITIZATION
+13	LUAD plasticity	COMPLETE_WITH_LIMITATION	Candidates showed limited/low state heterogeneity; no temporal or lineage transition demonstrated.	CROSS_SECTIONAL
+14	Structural/docking hypothesis	BLOCKED	No defensible target/protein-ligand evidence chain currently authorizes docking.	NOT_AUTHORIZED

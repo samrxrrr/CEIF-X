@@ -1,0 +1,5 @@
+dataset_id	individuals	minimum_cells_per_individual	sampling_unit	sampling_rule	candidate_clusters
+SC001	3	6350	individual	Equal random cells per individual, n=6350	23;24;25
+SC002	9	1936	individual	Equal random cells per individual, n=1936	23;24;25
+SC003	14	11	individual	Equal random cells per individual, n=11	23;24;25
+SC004	4	3883	individual	Equal random cells per individual, n=3883	23;24;25

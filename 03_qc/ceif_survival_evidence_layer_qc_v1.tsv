@@ -1,0 +1,17 @@
+metric	value
+cox_signals	1356
+initial_survival_candidates	335
+confirmed_time_varying_ph_concerns	2
+schoenfeld_ph_concerns	2
+primary_cox_fdr_below_0.05	385
+primary_cox_hr_gt_1	423
+primary_cox_hr_lt_1	933
+primary_cox_modified	NO
+ph_diagnostics_modified	NO
+time_varying_sensitivity_modified	NO
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+candidate_rule	BH-FDR < 0.05 AND abs(log(HR)) >= 0.30
+ph_adjudication_rule	Independent Schoenfeld residual diagnostic; BH-FDR < 0.05
+time_varying_rule	Applied only to the two independently confirmed PH-concern genes
+status	PASS

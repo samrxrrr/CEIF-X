@@ -1,0 +1,10 @@
+cluster	working_celltype	annotation_confidence	annotation_uncertainty	malignant_status	total_cells	dominant_dataset	dominant_dataset_fraction	dataset_restriction
+11	Alveolar epithelial	MODERATE	MODERATE	NOT_CONFIRMED	1524	SC001	0.9973753280839897	VERY_HIGH
+15	Epithelial/low-information — unresolved	LOW	HIGH	NOT_CONFIRMED	4679	SC002	0.6655268219705065	MODERATE
+16	Secretory epithelial/plasma-like — unresolved	LOW	HIGH	NOT_CONFIRMED	525	SC001	0.8742857142857143	HIGH
+17	Epithelial	HIGH	MODERATE	NOT_CONFIRMED	3413	SC002	0.988866100205098	VERY_HIGH
+26	Epithelial/stress — unresolved	LOW	HIGH	NOT_CONFIRMED	2772	SC004	0.9256854256854256	HIGH
+27	Epithelial/stress — unresolved	LOW	HIGH	NOT_CONFIRMED	3414	SC004	0.8951376684241359	HIGH
+29	Cycling epithelial	HIGH	MODERATE	NOT_CONFIRMED	485	SC004	0.9525773195876288	VERY_HIGH
+32	Epithelial	MODERATE	MODERATE	NOT_CONFIRMED	4034	SC004	0.999008428358949	VERY_HIGH
+33	Interferon/stress epithelial-like — unresolved	LOW	HIGH	NOT_CONFIRMED	4144	SC004	0.9975868725868726	VERY_HIGH

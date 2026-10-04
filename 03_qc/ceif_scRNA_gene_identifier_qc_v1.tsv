@@ -1,0 +1,5 @@
+dataset_id	accession	gene_rows	unique_gene_ids	duplicate_gene_ids	valid_ensembl_ids	versioned_ensembl_ids
+SC001	E-MTAB-6653	23979	23979	0	23979	0
+SC002	E-MTAB-8410	26204	26204	0	26204	0
+SC003	E-GEOD-75688	28670	28670	0	28670	0
+SC004	E-MTAB-8559	23284	23284	0	23284	0

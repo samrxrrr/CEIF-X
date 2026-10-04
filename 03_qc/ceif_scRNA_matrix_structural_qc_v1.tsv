@@ -1,0 +1,5 @@
+dataset_id	matrix_genes	matrix_cells	nnz	row_id_count	col_id_count	unique_gene_ids	unique_cell_ids	gene_dimension_match	cell_dimension_match	duplicate_gene_ids_absent	duplicate_cell_ids_absent
+E-GEOD-75688	28670	520	5432583	28670	520	28670	520	True	True	True	True
+E-MTAB-6653	23979	32341	57112157	23979	32341	23979	32341	True	True	True	True
+E-MTAB-8410	26204	52587	103805006	26204	52587	26204	52587	True	True	True	True
+E-MTAB-8559	23284	19880	56452779	23284	19880	23284	19880	True	True	True	True

@@ -1,0 +1,21 @@
+section	metric	value
+INPUT	total_enrichment_rows	7895
+INPUT	significant_enrichment_rows	432
+OUTPUT	unique_database_term_pairs	257
+OUTPUT	duplicate_database_term_rows	0
+OUTPUT	unassigned_module_rows	0
+PATTERN	ALL_THREE_LAYERS	5
+PATTERN	L1_L2_ONLY	8
+PATTERN	L2_L3_ONLY	0
+PATTERN	L1_L3_ONLY	157
+PATTERN	L1_ONLY	65
+PATTERN	L2_ONLY	12
+PATTERN	L3_ONLY	10
+INTEGRITY	raw_data_modified	NO
+INTEGRITY	frozen_upstream_outputs_modified	NO
+INTEGRITY	enrichment_results_modified	NO
+INTEGRITY	candidate_membership_changed	NO
+METHOD	significance_threshold	BH-FDR < 0.05
+METHOD	module_source	ceif_cross_layer_functional_modules_v2.tsv
+METHOD	cross_layer_matching	exact Gene_set + Term identity
+STATUS	status	PASS

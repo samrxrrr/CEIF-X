@@ -1,0 +1,5 @@
+dataset_id	matrix_genes	matrix_cells	nnz	gene_index_rows	cell_index_rows	all_values_finite	all_values_nonnegative	dtype
+SC001	20611	32135	55868418	20611	32135	True	True	float32
+SC002	20611	52165	101944715	20611	52165	True	True	float32
+SC003	20611	515	5030835	20611	515	True	True	float32
+SC004	20611	19868	56211143	20611	19868	True	True	float32

@@ -1,0 +1,17 @@
+metric	value
+locked_cases	2332
+SC001_cases	501
+SC002_cases	428
+SC003_cases	1038
+SC004_cases	365
+genes_evaluated	19367
+all_four_valid_r	19344
+all_positive	12959
+all_negative	350
+mixed_direction	6043
+four_dataset_consistent_effect	1402
+forced_mapping	NO
+arbitrary_selection	NO
+raw_bulk_modified	NO
+raw_cnv_modified	NO
+status	PASS

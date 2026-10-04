@@ -1,0 +1,2 @@
+cohort_rows	os_rows	signal_rows	cox_rows	cohort_id_resolved	os_id_resolved	endpoint_time_resolved	endpoint_event_resolved	bulk_matrix_present
+2332	2332	1356	1356	True	True	True	True	True

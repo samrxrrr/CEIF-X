@@ -1,0 +1,15 @@
+metric	value
+analysis_phase	PHASE_1_COHORT_MOLECULAR_LANDSCAPE
+locked_cases	2332
+datasets	4
+bulk_features	19394
+cnv_features	60623
+bulk_cnv_shared_features	19376
+valid_bulk_cnv_associations	19367
+invalid_bulk_cnv_associations	9
+bulk_landscape_samples	2332
+cnv_landscape_samples	2332
+clinical_layer	READY
+raw_bulk_modified	NO
+raw_cnv_modified	NO
+status	PASS

@@ -1,0 +1,21 @@
+section	metric	value
+INPUT	total_enrichment_rows	7895
+INPUT	significant_enrichment_rows	432
+INPUT	unique_significant_database_term_pairs	257
+MODULE	functional_modules	151
+MODULE	module_rows	257
+MODULE	duplicate_database_term_rows	0
+MODULE	shared_core_modules	5
+MODULE	survival_integrated_shared_or_specific	20
+MODULE	molecular_shared_without_survival	157
+MODULE	molecular_primary_specific	65
+MODULE	molecular_only_specific	10
+METHOD	significance_threshold	BH-FDR < 0.05
+METHOD	module_overlap_threshold	Jaccard >= 0.50
+METHOD	exact_term_assignment	ONE database × term → ONE module
+INTEGRITY	raw_data_modified	NO
+INTEGRITY	frozen_upstream_outputs_modified	NO
+INTEGRITY	candidate_membership_changed	NO
+INTEGRITY	enrichment_results_modified	NO
+INTEGRITY	duplicate_database_term_rows	0
+STATUS	status	PASS

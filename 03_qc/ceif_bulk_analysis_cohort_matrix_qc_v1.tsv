@@ -1,0 +1,17 @@
+metric	value
+resolved_cases	2332
+unique_cases	2332
+unique_bulk_samples	2332
+source_matrix_samples	2653
+source_matrix_genes	60660
+selected_samples_found	2332
+selected_samples_missing	0
+duplicate_gene_ids	0
+empty_gene_ids	0
+non_numeric_values	0
+negative_values	0
+SC001_resolved_cases	501
+SC002_resolved_cases	428
+SC003_resolved_cases	1038
+SC004_resolved_cases	365
+final_status	PASS

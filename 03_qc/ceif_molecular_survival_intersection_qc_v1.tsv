@@ -1,0 +1,21 @@
+metric	value
+frozen_molecular_signals	1356
+frozen_survival_candidates	335
+molecular_survival_intersection	335
+molecular_only_signals	1021
+survival_candidates_not_in_molecular_set	0
+intersection_fraction_of_molecular_signals	0.24705
+intersection_fraction_of_survival_candidates	1.0
+intersection_time_varying_ph_concerns	2
+intersection_schoenfeld_ph_concerns	2
+molecular_selection_rule	Frozen prior rule: FDR<0.05 AND |r|>=0.30 AND valid all four datasets AND positive all four AND |r|>=0.30 all four datasets
+survival_selection_rule	Frozen prior rule: BH-FDR<0.05 AND |log(HR)|>=0.30
+intersection_rule	Set intersection of the two frozen signal layers; no new statistical threshold
+clinical_outcomes_used_to_define_molecular_set	NO
+new_composite_score_created	NO
+molecular_results_modified	NO
+survival_results_modified	NO
+raw_expression_modified	NO
+raw_cnv_modified	NO
+raw_os_endpoint_modified	NO
+status	PASS

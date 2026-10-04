@@ -1,0 +1,14 @@
+stage	artifact	status	detail
+Cohort	ceif_complete_three_layer_integration_cohort_v1.tsv	PASS	Frozen complete bulk+CNV+clinical cohort
+Bulk transcriptomics	bulk_counts_analysis_cohort_v1.tsv	PASS	2332 samples; 19394 filtered genes
+Bulk normalization	bulk_log2cpm_v1.tsv	PASS	log2(CPM+1); nonfinite=0
+CNV matrix	cnv_copy_number_matrix_v1.tsv	PASS	60623 genes × 3510 samples
+CNV transformation	cnv_log2_copy_number_v1.tsv	PASS	log2(copy_number+1)
+CNV states	cnv_state_matrix_v1.tsv	PASS	LOSS/NEUTRAL/GAIN/NA
+Bulk-CNV mapping	ceif_final_bulk_cnv_sample_mapping_v1.tsv	PASS	2332 mappings; forced mapping=0
+Bulk-CNV association	ceif_bulk_cnv_gene_association_v1.tsv	PASS	19367 valid gene associations
+Reproducible molecular signals	ceif_reproducible_molecular_signal_set_v1.tsv	PASS	1356 reproducible signals
+Clinical XML	ceif_clinical_xml_endpoint_inventory_v1.tsv	PASS	2388 XML files resolved and parsed
+Clinical endpoint audit	ceif_clinical_case_endpoint_audit_v1.tsv	PASS	2332 frozen integration cases audited
+Overall survival endpoint	ceif_final_os_endpoint_v1.tsv	PASS	2332 cases; 650 deaths; 1682 censored; 474 deaths without time
+Unavailable modality	ceif_genomics_mutation_availability_final_v1.tsv	SKIPPED	Unavailable files; no downstream mutation analysis

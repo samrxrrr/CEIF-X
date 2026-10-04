@@ -1,0 +1,12 @@
+metric	value
+final_cases	2332
+duplicate_mapping_keys	0
+bulk_metadata_missing	0
+cnv_metadata_missing	0
+bulk_matrix_samples_missing	0
+cnv_matrix_samples_missing	0
+forced_mapping	NO
+arbitrary_selection	NO
+raw_bulk_matrix_modified	NO
+raw_cnv_matrix_modified	NO
+final_status	PASS

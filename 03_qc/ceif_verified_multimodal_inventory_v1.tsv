@@ -1,0 +1,13 @@
+dataset_id	modality	manifest_files	present_files	missing_files	unique_cases	unique_samples
+SC001	bulk_transcriptomics	589	587	2	516	587
+SC001	clinical_survival	517	515	2	515	0
+SC001	cnv	771	765	6	517	765
+SC002	bulk_transcriptomics	496	495	1	443	495
+SC002	clinical_survival	443	440	3	440	0
+SC002	cnv	652	648	4	443	648
+SC003	bulk_transcriptomics	1199	1193	6	1068	1193
+SC003	clinical_survival	1074	1071	3	1071	0
+SC003	cnv	1604	1598	6	1071	1598
+SC004	bulk_transcriptomics	381	378	3	373	378
+SC004	clinical_survival	376	373	3	373	0
+SC004	cnv	570	568	2	376	568

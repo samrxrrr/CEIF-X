@@ -1,0 +1,19 @@
+metric	value
+confirmed_genes_requested	2
+genes_completed	2
+genes_failed	0
+os_cases_used	1851
+os_events_used	176
+counting_process_rows	2718
+median_event_time_split_days	789.0
+time_interaction_raw_p_lt_0.05	2
+optimizer_warnings	0
+early_hr_finite	2
+late_hr_finite	2
+primary_cox_results_modified	NO
+ph_concordance_results_modified	NO
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+method	Extended Cox counting-process model with gene x post-median-event-time interaction
+interpretation	Sensitivity analysis for the two independently confirmed Schoenfeld PH-concern genes; primary univariate Cox estimates remain unchanged.
+status	PASS

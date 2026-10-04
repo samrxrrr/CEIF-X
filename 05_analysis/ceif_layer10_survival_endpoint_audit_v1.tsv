@@ -1,0 +1,4 @@
+cohort_definition	n_cases	n_events	n_censored	n_with_time	interpretation
+FULL_COHORT	2332	650	1682	1851	All authoritative endpoint records
+VALID_TIME_TO_EVENT	1814	173	1641	1814	Used for time-to-event ML
+DEATH_NO_TIME	477	477	0	0	Death status present but death time unavailable

@@ -1,0 +1,2 @@
+candidate_involved_edges	edges_support_2plus_datasets	edges_support_3plus_datasets	candidate_to_candidate_edges	candidate_to_other_edges	other_to_candidate_edges	mean_lrscore	mean_scaled_weight
+11009	11009	979	359	5008	5642	0.7110160414894783	0.31332845612867527

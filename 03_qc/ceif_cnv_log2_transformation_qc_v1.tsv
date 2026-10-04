@@ -1,0 +1,17 @@
+metric	value
+input_genes	60623
+input_samples	3510
+input_total_cells	212786730
+input_missing_cells	12639740
+output_missing_cells	12639740
+negative_input_values	0
+non_numeric_nonmissing	0
+nonfinite_transformed_values	0
+transformed_min	0.0
+transformed_max	8.588714635582264
+transformation	log2(copy_number + 1)
+missing_values	PRESERVED_AS_NA
+biological_thresholding	NOT_PERFORMED
+gain_loss_classification	NOT_PERFORMED
+input_matrix_modified	NO
+final_status	PASS

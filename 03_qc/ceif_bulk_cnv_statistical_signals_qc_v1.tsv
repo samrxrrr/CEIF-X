@@ -1,0 +1,19 @@
+metric	value
+input_association_rows	19376
+valid_association_rows	19367
+invalid_association_rows	9
+fdr_q_lt_0_05	16184
+abs_r_ge_0_30	4447
+supported_effect_signals	4446
+positive_supported_signals	4446
+negative_supported_signals	0
+minimum_n_pairs	17
+maximum_n_pairs	2332
+median_n_pairs	2332.0
+multiple_testing_method	Benjamini-Hochberg FDR
+effect_threshold	absolute Pearson r >= 0.30
+fdr_threshold	q < 0.05
+scipy_required	NO
+raw_bulk_modified	NO
+raw_cnv_modified	NO
+status	PASS

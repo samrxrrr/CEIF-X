@@ -1,0 +1,4 @@
+candidate_cluster	candidate_communication_rows	datasets_supported_max	edges_supported_2plus	edges_supported_3plus	unique_ligands	unique_receptors	mean_lrscore
+23	35571	3	6117	979	610	627	0.49818729815710733
+24	20888	2	5251	0	480	485	0.6695630705242244
+25	10020	1	0	0	384	373	0.6813620377894212

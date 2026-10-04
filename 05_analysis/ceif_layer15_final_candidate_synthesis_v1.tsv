@@ -1,0 +1,4 @@
+candidate_cluster	priority_rank	evidence_convergence_score	malignant_component	tumor_state_component	regulatory_component	conservation_component	recurrent_TFs	candidate_shared_conserved_TFs	LUAD_plasticity_evidence	docking_authorization	final_candidate_status
+23	1	0.8	1.0	1.0	1.0	1.0	37	15	LIMITED_OR_LOW_STATE_HETEROGENEITY	BLOCKED	CANDIDATE_ONLY
+24	2	0.55	0.5	1.0	0.25	1.0	31	15	LIMITED_OR_LOW_STATE_HETEROGENEITY	BLOCKED	CANDIDATE_ONLY
+25	3	0.3	0.5	1.0	0.0	0.0	29	11	LIMITED_OR_LOW_STATE_HETEROGENEITY	BLOCKED	CANDIDATE_ONLY

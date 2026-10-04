@@ -1,0 +1,16 @@
+metric	value
+total_cohort_cases	2332
+eligible_survival_cases	1851
+excluded_missing_time_cases	481
+eligible_events	176
+eligible_censored	1675
+zero_time_cases	37
+negative_time_cases	0
+duplicate_case_keys	0
+distinct_event_times	170
+median_os_days	7455.0
+maximum_followup_days	8605.0
+survival_analysis_method	Kaplan-Meier
+time_unit	days
+missing_time_handling	excluded from KM; retained in cohort accounting
+zero_time_handling	retained

@@ -1,0 +1,19 @@
+section	metric	value
+INPUT	total_enrichment_rows	7895
+INPUT	significant_rows_fdr_lt_0_05	432
+INPUT	databases	GO_Biological_Process_2025;KEGG_2021_Human
+INPUT	layers	L1_MOLECULAR_REPRODUCIBLE;L2_SURVIVAL_INTEGRATED;L3_MOLECULAR_ONLY
+MODULE	functional_modules	151
+MODULE	shared_core_modules	0
+MODULE	survival_integrated_modules	18
+MODULE	molecular_shared_without_survival	91
+MODULE	molecular_primary_specific	36
+MODULE	molecular_only_specific	6
+METHOD	significance_threshold	BH-FDR < 0.05
+METHOD	module_overlap_threshold	Jaccard >= 0.50
+METHOD	module_operation	within-database gene-set redundancy reduction
+INTEGRITY	raw_data_modified	NO
+INTEGRITY	frozen_upstream_outputs_modified	NO
+INTEGRITY	candidate_membership_changed	NO
+INTEGRITY	new_biological_filter_applied	NO
+STATUS	status	PASS

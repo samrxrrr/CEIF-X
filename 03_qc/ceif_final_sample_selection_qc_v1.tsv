@@ -1,0 +1,12 @@
+metric	value
+paired_rows	2349
+quarantine_rows	39
+combined_rows	2388
+unique_case_keys	2388
+duplicate_paired_keys	0
+duplicate_quarantine_keys	0
+empty_paired_bulk_cnv	0
+empty_quarantine_bulk_cnv	0
+overlap_cases	0
+schema_status	PASS
+overall_status	PASS

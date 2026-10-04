@@ -1,0 +1,5 @@
+dataset_id	accession	matrix_cells	design_assays	exact_id_intersection	matrix_only	design_only	matrix_duplicate_ids	design_duplicate_ids	exact_alignment
+SC001	E-MTAB-6653	32341	32341	32341	0	0	0	0	True
+SC002	E-MTAB-8410	52587	52587	52587	0	0	0	0	True
+SC003	E-GEOD-75688	520	549	520	0	29	0	0	False
+SC004	E-MTAB-8559	19880	19880	19880	0	0	0	0	True

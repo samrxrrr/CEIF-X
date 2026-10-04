@@ -1,0 +1,5 @@
+dataset	cells	genes	positional_gene_index_valid
+SC001_E-MTAB-6653	32135	20611	True
+SC002_E-MTAB-8410	52165	20611	True
+SC003_E-GEOD-75688	515	20611	True
+SC004_E-MTAB-8559	19868	20611	True

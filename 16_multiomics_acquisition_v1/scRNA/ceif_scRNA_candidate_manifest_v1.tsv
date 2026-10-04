@@ -1,0 +1,5 @@
+dataset_id	accession	cancer	tissue	verification_status	source
+SC001	E-MTAB-6653	Lung	lung	VERIFIED_EMBL_EBI	EMBL-EBI BioStudies/Single Cell Expression Atlas
+SC002	E-MTAB-8410	Colorectal	colorectal tumour + adjacent colon	VERIFIED_EMBL_EBI	EMBL-EBI Single Cell Expression Atlas
+SC003	E-GEOD-75688	Breast	primary breast cancer + lymph-node metastasis	VERIFIED_EMBL_EBI	EMBL-EBI Single Cell Expression Atlas
+SC004	E-MTAB-8559	Ovarian	ovarian	UNVERIFIED	EMBL-EBI verification pending

@@ -1,0 +1,17 @@
+metric	value
+os_eligible_cases	1851
+mapped_expression_cases	1851
+signals_requested	1356
+signals_available	1356
+signals_missing_from_expression	0
+models_attempted	1356
+models_valid	1356
+models_failed_or_insufficient	0
+fdr_below_0.05	385
+hazard_ratio_gt_1	423
+hazard_ratio_lt_1	933
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+method	Univariate Cox proportional hazards
+multiple_testing	Benjamini-Hochberg FDR
+status	PASS

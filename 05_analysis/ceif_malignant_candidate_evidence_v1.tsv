@@ -1,0 +1,4 @@
+cluster	total_cells	epithelial_marker_hits	malignant_associated_hits	targeted_epithelial_hits	targeted_proliferation_hits	annotation_uncertainty	dataset_restriction	dominant_dataset_fraction	candidate_evidence_tier	malignancy_status	cnv_validation	evidence_limitation
+23	3179	6	5	4.0	0.0	MODERATE	VERY_HIGH	0.9770368040264236	STRONGEST_CANDIDATE	CANDIDATE_ONLY	NOT_AVAILABLE	No authoritative cell-to-case/sample linkage for CNV validation
+24	2159	6	3	4.0	0.0	MODERATE	VERY_HIGH	0.9773043075497916	CANDIDATE	CANDIDATE_ONLY	NOT_AVAILABLE	No authoritative cell-to-case/sample linkage for CNV validation
+25	2590	6	3	4.0	0.0	MODERATE	VERY_HIGH	0.9972972972972972	CANDIDATE	CANDIDATE_ONLY	NOT_AVAILABLE	No authoritative cell-to-case/sample linkage for CNV validation

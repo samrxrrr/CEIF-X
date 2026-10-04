@@ -1,0 +1,10 @@
+metric	value
+cox_results_input	1356
+fdr_below_0.05	385
+abs_log_hr_ge_0.30	405
+initial_screen_candidates	335
+lower_hazard_candidates	289
+higher_hazard_candidates	46
+candidate_fdr_below_0.01	189
+candidate_abs_log_hr_ge_0.50	85
+candidate_abs_log_hr_ge_0.693	6

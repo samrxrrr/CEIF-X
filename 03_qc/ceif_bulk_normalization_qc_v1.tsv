@@ -1,0 +1,9 @@
+metric	value
+input_genes	19394
+normalized_genes	19394
+normalized_samples	2332
+transformation	log2(CPM + 1)
+finite_values	45226808
+total_values	45226808
+nonfinite_values	0
+status	PASS

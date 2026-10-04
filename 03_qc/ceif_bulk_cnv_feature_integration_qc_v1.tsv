@@ -1,0 +1,13 @@
+metric	value
+frozen_complete_cases	2332
+alignment_exact_one_to_one_cases	1205
+integration_rows	1205
+missing_cnv_feature_rows	0
+duplicate_integration_keys	0
+missing_bulk_sample_ids	0
+missing_cnv_sample_ids	0
+missing_bulk_metadata	0
+feature_columns	19
+forced_mapping	NO
+raw_matrices_modified	NO
+final_status	PASS

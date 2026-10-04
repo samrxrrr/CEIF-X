@@ -1,0 +1,11 @@
+metric	value
+shared_genes	19376.0
+valid_associations	19367.0
+invalid_associations	9.0
+mean_pearson_r	0.18087330359176448
+median_pearson_r	0.1739757830789411
+mean_abs_pearson_r	0.1934947205246784
+median_abs_pearson_r	0.1746727562901715
+positive_r_ge_0_30	4446.0
+negative_r_le_minus_0_30	1.0
+absolute_r_ge_0_50	397.0

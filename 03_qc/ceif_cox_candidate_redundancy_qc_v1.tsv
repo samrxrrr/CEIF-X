@@ -1,0 +1,12 @@
+metric	value
+candidate_genes	335
+expression_rows_used	335
+expression_cases_used	2332
+pairwise_candidate_pairs	55945
+pairs_abs_spearman_ge_0.80	7
+pairs_abs_spearman_ge_0.90	0
+pairs_abs_spearman_ge_0.95	0
+candidates_with_partner_ge_0.80	12
+candidates_without_partner_ge_0.80	323
+raw_expression_modified	NO
+candidate_screen_modified	NO

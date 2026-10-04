@@ -1,0 +1,14 @@
+metric	value
+candidate_genes_requested	335
+candidate_genes_diagnosed	335
+diagnostics_failed	0
+insufficient	0
+no_evidence_ph_violation_p_ge_0.05	52
+ph_concern_raw_p_lt_0.05	283
+ph_concern_bh_fdr_lt_0.05	280
+os_cases_used	1851
+os_events_used	176
+raw_expression_modified	NO
+raw_os_endpoint_modified	NO
+primary_cox_results_modified	NO
+method	Cox time-interaction PH diagnostic

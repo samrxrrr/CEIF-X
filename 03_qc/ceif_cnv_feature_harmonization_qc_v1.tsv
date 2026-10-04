@@ -1,0 +1,16 @@
+metric	value
+input_features	60623
+input_samples	3510
+valid_structural_features	60623
+invalid_empty_gene_ids	0
+invalid_duplicate_gene_ids	0
+invalid_chromosomes	0
+invalid_coordinates	0
+all_samples_missing_features	159
+harmonized_reference_features	60623
+annotation_columns	5
+sample_value_columns	3510
+biological_filtering_performed	NO
+imputation_performed	NO
+raw_matrix_modified	NO
+final_status	PASS

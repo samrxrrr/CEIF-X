@@ -1,0 +1,5 @@
+dataset	cells	expression_genes	network_edges_used	network_tfs	network_targets	activity_cells	activity_tfs	finite_activity_values	finite_padj_values	activity_output	padj_output
+SC001_E-MTAB-6653	32135	20611	13496	306	4610	32135	151	True	True	05_analysis/ceif_layer8_tf_activity_v1/SC001_E-MTAB-6653_TF_activity_ULM_ES_v1.tsv	05_analysis/ceif_layer8_tf_activity_v1/SC001_E-MTAB-6653_TF_activity_ULM_padj_v1.tsv
+SC002_E-MTAB-8410	52165	20611	13496	306	4610	52165	151	True	True	05_analysis/ceif_layer8_tf_activity_v1/SC002_E-MTAB-8410_TF_activity_ULM_ES_v1.tsv	05_analysis/ceif_layer8_tf_activity_v1/SC002_E-MTAB-8410_TF_activity_ULM_padj_v1.tsv
+SC003_E-GEOD-75688	515	20611	13496	306	4610	515	151	True	True	05_analysis/ceif_layer8_tf_activity_v1/SC003_E-GEOD-75688_TF_activity_ULM_ES_v1.tsv	05_analysis/ceif_layer8_tf_activity_v1/SC003_E-GEOD-75688_TF_activity_ULM_padj_v1.tsv
+SC004_E-MTAB-8559	19868	20611	13496	306	4610	19868	151	True	True	05_analysis/ceif_layer8_tf_activity_v1/SC004_E-MTAB-8559_TF_activity_ULM_ES_v1.tsv	05_analysis/ceif_layer8_tf_activity_v1/SC004_E-MTAB-8559_TF_activity_ULM_padj_v1.tsv

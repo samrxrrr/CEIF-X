@@ -1,0 +1,5 @@
+dataset	activity_rows	activity_columns	padj_rows	padj_columns	clustering_overlap_rows	alignment_status	finite_activity	finite_padj
+SC001_E-MTAB-6653	32135	151	32135	151	32135	PASS	True	True
+SC002_E-MTAB-8410	52165	151	52165	151	52165	PASS	True	True
+SC003_E-GEOD-75688	515	151	515	151	515	PASS	True	True
+SC004_E-MTAB-8559	19868	151	19868	151	19868	PASS	True	True
